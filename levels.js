@@ -1,0 +1,29 @@
+const LEVELS = [
+{
+  platforms:[
+    {x:120,y:500,trap:false},
+    {x:260,y:420,trap:true},
+    {x:400,y:360,trap:false},
+    {x:540,y:300,trap:true},
+    {x:700,y:240,trap:false}
+  ],
+  spikes:[
+    {x:300,y:480},
+    {x:600,y:280}
+  ],
+  door:{x:780,y:180}
+},
+{
+  platforms:[
+    {x:100,y:500,trap:false},
+    {x:250,y:420,trap:true},
+    {x:400,y:340,trap:true},
+    {x:550,y:280,trap:false},
+    {x:700,y:220,trap:false}
+  ],
+  spikes:[
+    {x:450,y:320}
+  ],
+  door:{x:760,y:160}
+}
+];
